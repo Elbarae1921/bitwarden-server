@@ -11,4 +11,4 @@ services:
       - ./docker-volumes/bw-data:/data
     environment:
       WEBSOCKET_ENABLED: 'true' # Required to use websockets
-      SIGNUPS_ALLOWED: 'true'   # set to false to disable signups
+      SIGNUPS_ALLOWED: 'false'   # set to false to disable signups
